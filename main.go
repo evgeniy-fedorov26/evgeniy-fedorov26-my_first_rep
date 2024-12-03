@@ -9,7 +9,7 @@ import (
 
 func main() {
 	reader := bufio.NewReader(os.Stdin)
-	fmt.Print("Введите данные: ")
+	fmt.Print("Введите данные -: ")
 
 	n, err := reader.ReadString('\n')
 	if err != nil {
